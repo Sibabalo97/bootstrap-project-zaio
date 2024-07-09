@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothing Store</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-custom">
+    <a class="navbar-brand" href="#"><img src="./image/logo_big.png" alt="" class="test"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#products">Products</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<div class="jumbotron text-center hero-bg">
+    <div class="container hero-text">
+        <h2>Welcome to Our Clothing Store</h2>
+        <p>Discover the latest trends in fashion with our new arrivals and exclusive collections.</p>
+        <a class="btn btn-primary btn-lg" href="#products" role="button">Shop Now</a>
+    </div>
+</div>
+
+<!-- About Section -->
+<section id="about" class="py-5" style="background-image: url('./image/black.jpeg'); background-size: cover; background-position: center;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2 style="color: pink;">About Us</h2>
+                <p style="color: pink;">We are dedicated to providing you with the latest fashion trends at affordable prices.</p>
+                <p style="color: pink;"><strong>Athi</strong> is the founder of the Atee's Collection, a passionate entrepreneur with a vision for style and quality.</p>
+                <p style="color: pink;">Our mission is to elevate your wardrobe with stylish, high-quality clothing that reflects your unique personality and lifestyle.</p>
+            </div>
+            <div class="col-md-6 text-center">
+                <div style="width: 200px; height: 200px; overflow: hidden; border-radius: 50%; margin: 0 auto;">
+                    <img src="./image/athi.jpeg" class="img-fluid" alt="Founder Image" style="width: 100%; height: auto;">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Products Section -->
+<section id="products" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center">Our Products</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="./image/nike-vapormax-3-triple-black-aj6900-004-4.webp" class="card-img-top" alt="Product 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Product 1</h5>
+                        <p class="card-text">Description of Product 1. Stylish and comfortable.</p>
+                        <a href="#" class="btn btn-primary">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="./image/Nike-Air-Max-Furyosa-CZ4149-400-1.webp" class="card-img-top" alt="Product 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Product 2</h5>
+                        <p class="card-text">Description of Product 2. Perfect for any occasion.</p>
+                        <a href="#" class="btn btn-primary">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="./image/product_22.png" class="card-img-top" alt="Product 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Product 2</h5>
+                        <p class="card-text">Description of Product 2. Perfect for any occasion.</p>
+                        <a href="#" class="btn btn-primary">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="./image/product_26.png" class="card-img-top" alt="Product 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Product 2</h5>
+                        <p class="card-text">Description of Product 2. Perfect for any occasion.</p>
+                        <a href="#" class="btn btn-primary">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="./image/th.jpeg" class="card-img-top" alt="Product 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Product 3</h5>
+                        <p class="card-text">Description of Product 3. Trendy and chic.</p>
+                        <a href="#" class="btn btn-primary">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-5">
+    <div class="container">
+        <h2 class="text-center">Contact Us</h2>
+        <form>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputName">Name</label>
+                    <input type="text" class="form-control" id="inputName" placeholder="Name">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputEmail">Email</label>
+                    <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputMessage">Message</label>
+                <textarea class="form-control" id="inputMessage" rows="4" placeholder="Your message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark py-3">
+    <div class="container text-center text-white">
+        <p>&copy; 2024 Clothing Store. All rights reserved.</p>
+        <div class="mt-3">
+            <p style="font-weight: bold;">Accepted Payment Methods:</p>
+            <img src="./image/payments.jpeg" alt="Accepted Payment Methods" class="img-fluid" style="max-width: 200px;">
+            <p class="mt-3">We accept Visa, MasterCard, PayPal, and more.</p>
+        </div>
+    </div>
+</footer>
+
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

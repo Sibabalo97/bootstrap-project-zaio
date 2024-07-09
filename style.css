@@ -1,0 +1,83 @@
+.navbar-custom {
+            background-color: black;
+        }
+        .navbar-custom .navbar-brand,
+        .navbar-custom .nav-link {
+            color: white;
+        }
+        .hero-bg {
+            background-image: url('./image/hero_image.png');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: white;
+        }
+        .hero-text {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 60px;
+            border-radius: 10px;
+        }
+
+        .test {
+        max-width: 70px; /* Adjust the maximum width as needed */
+        height: auto; /* Maintain aspect ratio */
+        /* Add other styles like padding, margin, etc. for spacing */
+    }
+
+    .btn.btn-primary {
+        background-color: pink; /* Change background color to pink */
+        color: white; /* Text color */
+        border-color: pink; /* Border color (if needed) */
+    }
+    .btn.btn-primary:hover {
+        background-color: lightpink; /* Change background color on hover */
+        border-color: lightpink; /* Border color on hover */
+    }
+
+     /* Style for card images */
+     .card-img-top {
+        height: 300px; /* Adjust as needed */
+        object-fit: cover; /* Ensure images maintain aspect ratio and cover the entire space */
+    }
+
+    /* Style for card titles */
+    .card-title {
+        font-size: 1.25rem; /* Adjust font size */
+    }
+
+    /* Style for card descriptions */
+    .card-text {
+        font-size: 1rem; /* Adjust font size */
+    }
+
+    .navbar-toggler {
+        border-color: rgba(255, 255, 255, 0.5); /* Adjust border color of toggler */
+    }
+
+    .navbar-toggler-icon {
+        background-color: white; /* Toggler icon color */
+    }
+
+    .navbar-collapse {
+        background-color: black; /* Background color of collapsed navbar */
+        position: absolute;
+        top: 80px; /* Adjust top position based on your design */
+        left: 0;
+        right: 0;
+        z-index: 1000; /* Ensure it's above other content */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for better visibility */
+    }
+
+    .navbar-nav {
+        padding-top: 10px; /* Adjust padding as needed */
+    }
+
+    .navbar-nav .nav-item {
+        text-align: center; /* Center align items in the navbar */
+        padding: 10px 0; /* Adjust padding as needed */
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        color: white; /* Link color */
+        font-size: 1.2rem; /* Font size of links */
+    }
